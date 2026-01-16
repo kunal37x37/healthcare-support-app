@@ -1,0 +1,209 @@
+/* Reset and Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+
+/* Healthcare App Styles */
+
+.healthcare-app {
+    overflow-x: hidden;
+}
+
+
+/* Hero Section */
+
+.hero {
+    position: relative;
+    color: white;
+    overflow: hidden;
+}
+
+.hero .highlight {
+    color: #28a745;
+}
+
+
+/* Stats Section */
+
+.stats .stat-item {
+    transition: transform 0.3s ease;
+}
+
+.stats .stat-item:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Forms Section */
+
+.forms-section .form-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff;
+    height: 100%;
+}
+
+.forms-section .form-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* AI Chatbot Section */
+
+.ai-chatbot {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e7eb 100%);
+}
+
+.chatbot-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 15px;
+}
+
+.chat-message {
+    max-width: 80%;
+    border-radius: 18px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.user-message {
+    background: #007bff;
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: 5px;
+}
+
+.bot-message {
+    background: #f1f1f1;
+    color: #333;
+    margin-right: auto;
+    border-bottom-left-radius: 5px;
+}
+
+.chat-message p {
+    margin: 0;
+}
+
+.chat-message .time {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    margin-top: 4px;
+}
+
+
+/* Health Tips */
+
+.health-tips .tip-card {
+    border-left: 5px solid #28a745;
+    background: white;
+    transition: transform 0.3s ease;
+}
+
+.health-tips .tip-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Buttons */
+
+.btn-light,
+.btn-outline-light {
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    font-weight: 500;
+    background: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    border-radius: 50px;
+    font-weight: 500;
+    background: #28a745;
+    border-color: #28a745;
+}
+
+
+/* Header */
+
+.backdrop-blur {
+    backdrop-filter: blur(10px);
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .hero .display-4 {
+        font-size: 2.5rem;
+    }
+    .header nav {
+        margin-top: 10px;
+    }
+    .forms-section .form-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero .display-4 {
+        font-size: 2rem;
+    }
+    .stat-number {
+        font-size: 1.8rem !important;
+    }
+    .chat-message {
+        max-width: 90%;
+    }
+}
+
+
+/* Loading Spinner */
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ddd;
+    border-top: 5px solid #28a745;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* AI Badge */
+
+.ai-badge {
+    background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
