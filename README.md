@@ -1,4 +1,3 @@
-# 🏥 Healthcare Support Web App with AI Integration
 
 # 🏥 Healthcare Support Web App
 
