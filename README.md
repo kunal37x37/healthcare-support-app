@@ -125,3 +125,12 @@ npm start
 - Contact → Submit support queries
 - AI Assistant → Chatbot interaction
 - Health Tips → Wellness tips
+
+
+## 📄 Licens
+- This project is for educational purposes only.
+
+## 👨‍💻 Developer & Support
+#### Developer: Patel Kunal 
+#### Github:kunal37x37
+#### Project Link : https://github.com/kunal37x37/Movie-Booking-System
