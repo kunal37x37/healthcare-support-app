@@ -16,24 +16,15 @@ This is a concept-level healthcare support web application designed to help orga
 
 | Home Page | Register page |
 |------------|----------------|
-| <img width="1876" height="892" alt="image" src="https://github.com/user-attachments/assets/8c57599f-89e4-4872-84ea-077c901fff5e" /> | <img width="1883" height="881" alt="image" src="https://github.com/user-attachments/assets/acbc609d-5134-4dcd-86d1-09279e6a1c74" />|
+| <img width="1874" height="864" alt="image" src="https://github.com/user-attachments/assets/398fee6c-1f9c-4263-9530-ba2a421a3578" />| <img width="1674" height="882" alt="image" src="https://github.com/user-attachments/assets/fbd9f5d0-4db6-4744-9ac1-68cf1aa359a1" />|
 
-|Login page | Movie details page|
+|Contact & Support Form | Healthcare AI Assistant |
 |------------|----------------|
-|<img width="1893" height="759" alt="image" src="https://github.com/user-attachments/assets/284624d1-77d5-4ceb-a163-cdaada1ee8c7" />|<img width="1176" height="839" alt="image" src="https://github.com/user-attachments/assets/e5b5deb0-3cd0-427c-8e99-f26854f21672" />|
+|<img width="1683" height="870" alt="image" src="https://github.com/user-attachments/assets/7bc55cd7-bbf8-4507-9f95-a1a7266db9d3" />|<img width="1503" height="790" alt="image" src="https://github.com/user-attachments/assets/52e75aa3-7366-4ae3-aa83-7ce359c6dc1c" />|
 
-|Ticket Booking page | confirmation /ticket download  page|
+|AI - Generated Health Tips| footer|
 |------------|----------------|
-|<img width="858" height="891" alt="image" src="https://github.com/user-attachments/assets/a44ea529-c83c-4658-a99c-b9c87d7ba547" />|<img width="1168" height="781" alt="image" src="https://github.com/user-attachments/assets/224ff223-7dce-47d6-882a-46c539d67aee" />|
-
-|Print Ticke image/E-Ticket | MyBooking page|
-|------------|----------------|
-|<img width="435" height="746" alt="image" src="https://github.com/user-attachments/assets/e2fad741-9554-4537-83a2-92aead94d7d0" />|<img width="1079" height="900" alt="image" src="https://github.com/user-attachments/assets/7daa8713-d159-463a-939a-c2039deb0fce" />|
-
-|Print Ticke image/E-Ticket | MyBooking page|
-|------------|----------------|
-|<img width="435" height="746" alt="image" src="https://github.com/user-attachments/assets/e2fad741-9554-4537-83a2-92aead94d7d0" />|<img width="1079" height="900" alt="image" src="https://github.com/user-attachments/assets/7daa8713-d159-463a-939a-c2039deb0fce" />|
-
+|<img width="1851" height="872" alt="image" src="https://github.com/user-attachments/assets/7a296795-d05c-49fb-b01a-b44e3d99bda7" />|<img width="1739" height="324" alt="image" src="https://github.com/user-attachments/assets/2e715756-cec0-4e05-be0e-037b0bdd0c48" />|
 
 ### **Technical Implementation:**
 - JavaScript-based pattern matching algorithms
