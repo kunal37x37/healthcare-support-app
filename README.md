@@ -7,9 +7,6 @@ This is a concept-level healthcare support web application designed to help orga
 
 ## 🌐 Demo
 
-<!-- Clickable Video Thumbnail -->
-[![Movie Booking System Demo](https://img.shields.io/badge/▶_CLICK_TO_PLAY_DEMO_VIDEO-FF0000?style=for-the-badge&logo=videoplayer&logoColor=white)](https://github.com/kunal37x37/Movie-Booking-System/blob/main/movie088.mp4)
-
 📸 **Screenshots**  
 
 **User  Screenshots:** 
