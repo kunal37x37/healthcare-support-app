@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🏥 Healthcare Support Web App with AI Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Internship Task Submission
+**Task:** Mini Healthcare Support Web App (Concept-Level)  
+**Submitted To:** [Company Name]  
+**Deadline:** 18 January, 2026  
+**Submitted By:** Kunal  
+**GitHub:** https://github.com/kunal37x37/healthcare-support-app
 
-## Available Scripts
+## 🚀 Live Demo
+[Add deployed link here after deployment]
 
-In the project directory, you can run:
+## 🤖 AI Ideas Implemented
 
-### `npm start`
+### 1. **Healthcare Chatbot**
+- Natural Language Processing simulation
+- Symptom pattern recognition
+- Emergency detection
+- 24/7 availability
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. **Automated Form Processing**
+- AI-generated summaries
+- Smart query categorization
+- Automated response generation
+- Volunteer matching suggestions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. **AI Response System**
+- Instant healthcare guidance
+- Priority-based routing
+- Personalized health tips
+- Follow-up automation
 
-### `npm test`
+## ✨ Features
+✅ **Volunteer Registration Form** with AI processing  
+✅ **Contact & Support Form** with AI analysis  
+✅ **AI Healthcare Assistant** (Chatbot)  
+✅ **Health Tips System** with auto-rotation  
+✅ **Real-time Statistics Dashboard**  
+✅ **Responsive Design** for all devices  
+✅ **Professional UI/UX** with Bootstrap 5  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
+- **React.js** - Frontend framework
+- **Bootstrap 5** - UI components
+- **React Icons** - Icon library
+- **JavaScript** - Programming
+- **CSS3** - Styling
+- **Git** - Version control
 
-### `npm run build`
+## 🏃‍♂️ Quick Start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone repository
+git clone https://github.com/kunal37x37/healthcare-support-app.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Run development server
+npm start
