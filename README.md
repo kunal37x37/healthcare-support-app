@@ -7,6 +7,8 @@ This is a concept-level healthcare support web application designed to help orga
 
 ## 🌐 Demo
 
+https://github.com/kunal37x37/healthcare-support-app/blob/main/gif.gif
+
 📸 **Screenshots**  
 
 **User  Screenshots:** 
