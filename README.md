@@ -88,3 +88,27 @@ healthcare-support-app/
 ├── README.md
 └── .gitignore
 ```
+
+## 🏃‍♂️ **Getting Started**
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/healthcare-support-app.git
+
+# Navigate to project
+cd healthcare-support-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+### Build for Production
+npm run build
