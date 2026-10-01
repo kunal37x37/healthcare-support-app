@@ -207,3 +207,64 @@ body {
     font-size: 0.8rem;
     font-weight: bold;
 }
+
+.family-consent-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    background: rgba(18, 26, 38, 0.68);
+}
+
+.family-consent-dialog {
+    width: min(100%, 34rem);
+    padding: clamp(1.25rem, 5vw, 2rem);
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
+}
+
+.family-consent-eyebrow {
+    margin-bottom: 0.5rem;
+    color: #18794e;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.family-consent-dialog h2 {
+    margin-bottom: 0.75rem;
+    color: #182230;
+    font-size: clamp(1.35rem, 5vw, 1.75rem);
+}
+
+.family-consent-dialog p {
+    line-height: 1.6;
+}
+
+.family-consent-notice {
+    padding: 0.85rem;
+    border-left: 4px solid #d9822b;
+    border-radius: 0.25rem;
+    background: #fff7ed;
+    color: #542d0b;
+    font-size: 0.9rem;
+}
+
+.family-consent-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+
+.family-permission-status {
+    position: relative;
+    z-index: 1;
+    padding: 0.75rem 1rem;
+    background: #fff7ed;
+    color: #542d0b;
+    text-align: center;
+}
