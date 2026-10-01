@@ -253,6 +253,29 @@ body {
     font-size: 0.9rem;
 }
 
+.family-consent-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+    margin: 1rem 0;
+    color: #182230;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.family-consent-check input {
+    flex: 0 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-top: 0.2rem;
+    accent-color: #18794e;
+}
+
+.family-consent-error {
+    color: #a12622;
+    font-weight: 600;
+}
+
 .family-consent-actions {
     display: flex;
     justify-content: flex-end;
@@ -267,4 +290,73 @@ body {
     background: #fff7ed;
     color: #542d0b;
     text-align: center;
+}
+
+.family-sharing-panel {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    gap: 1rem;
+    max-width: 64rem;
+    margin: 1rem auto;
+    padding: 1.25rem;
+    border: 1px solid #cce7d7;
+    border-radius: 1rem;
+    background: #f2fbf5;
+}
+
+.family-sharing-panel h2,
+.family-media-controls h3 {
+    margin: 0 0 0.5rem;
+    color: #155b3c;
+}
+
+.family-sharing-panel p,
+.family-media-controls p {
+    margin-bottom: 0.5rem;
+}
+
+.family-media-controls {
+    padding-top: 1rem;
+    border-top: 1px solid #d7e8dc;
+}
+
+.family-media-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+
+.family-camera-preview {
+    display: grid;
+    justify-items: start;
+    gap: 0.6rem;
+}
+
+.family-camera-preview video {
+    width: min(100%, 22rem);
+    max-height: 20rem;
+    border-radius: 0.75rem;
+    background: #182230;
+}
+
+.family-media-status {
+    margin-top: 0.75rem;
+    color: #155b3c;
+}
+
+@media (max-width: 700px) {
+    .family-sharing-panel {
+        margin: 0.75rem;
+        padding: 1rem;
+    }
+
+    .family-consent-actions {
+        flex-direction: column-reverse;
+    }
+
+    .family-consent-actions button {
+        width: 100%;
+    }
 }

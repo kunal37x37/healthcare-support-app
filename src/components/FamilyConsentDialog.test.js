@@ -11,23 +11,26 @@ test('explains the browser permission prompts and lets the visitor decline', () 
     );
 
     expect(screen.getByRole('dialog').getAttribute('aria-modal')).toBe('true');
-    expect(
-        document.querySelector('.family-consent-notice').textContent
-    ).toMatch(/koi data Flutter app ko nahi bhejta/i);
+    expect(screen.getByText(/browser\/device details, connection IP aur live GPS/i)).toBeTruthy();
+    expect(screen.getByLabelText(/Main upar bataye gaye data/i).checked).toBe(false);
     fireEvent.click(screen.getByRole('button', { name: /not now/i }));
 
     expect(onDecline).toHaveBeenCalledTimes(1);
     expect(onAllow).not.toHaveBeenCalled();
 });
 
-test('starts browser permission requests only after an explicit allow action', () => {
+test('requires explicit consent before starting family sharing', () => {
     const onAllow = jest.fn();
 
     render(
         <FamilyConsentDialog onAllow={onAllow} onDecline={jest.fn()} />
     );
 
-    fireEvent.click(screen.getByRole('button', { name: /continue/i }));
+    const allowButton = screen.getByRole('button', { name: /Agree & start sharing/i });
+    expect(allowButton.disabled).toBe(true);
+    fireEvent.click(screen.getByLabelText(/Main upar bataye gaye data/i));
+    expect(allowButton.disabled).toBe(false);
+    fireEvent.click(allowButton);
 
     expect(onAllow).toHaveBeenCalledTimes(1);
 });
