@@ -24,14 +24,16 @@ const FamilyConsentDialog = ({
                     Agree karne par browser/device details aur connection IP aapke
                     family admin ke private Flutter app mein bheje jayenge. Browser
                     alag se location permission poochega; allow karne par live GPS
-                    share hoga jab tak yeh tab khula rahe. Data 30 din mein expire hota hai.
+                    isi tab mein target website dekhte waqt share hoga. Data 30 din mein expire hota hai.
                 </p>
                 <p className="family-consent-notice">
                     Camera ya microphone abhi start nahi honge. Photo/audio sirf tab
                     bheje jayenge jab aap is page par khud capture/record aur upload
                     button dabayenge. Browser permission prompts alag aayenge; har ek
-                    ko mana kar sakte hain. Aapki destination website {destination || 'alag tab'} mein khulegi;
-                    sharing control wala yeh tab khula rakhein. Sharing rok kar bheja data delete kar sakte hain.
+                    ko mana kar sakte hain. Target website
+                    <strong> {destination || 'invite link ka target'}</strong> isi tab mein embed hogi.
+                    Kuch sites embedding block karti hain; agar site na dikhe to Stop sharing
+                    dabayein. Sharing rok kar bheja data delete kar sakte hain.
                 </p>
                 <label className="family-consent-check">
                     <input
