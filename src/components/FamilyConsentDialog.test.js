@@ -11,7 +11,7 @@ test('explains the browser permission prompts and lets the visitor decline', () 
     );
 
     expect(screen.getByRole('dialog').getAttribute('aria-modal')).toBe('true');
-    expect(screen.getByText(/browser\/device details, connection IP aur live GPS/i)).toBeTruthy();
+    expect(screen.getByText(/browser\/device details aur connection IP/i)).toBeTruthy();
     expect(screen.getByLabelText(/Main upar bataye gaye data/i).checked).toBe(false);
     fireEvent.click(screen.getByRole('button', { name: /not now/i }));
 

@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 
-const FamilyConsentDialog = ({ onAllow, onDecline, disabled = false, error }) => {
+const FamilyConsentDialog = ({
+    onAllow,
+    onDecline,
+    disabled = false,
+    error,
+    destination = '',
+}) => {
     const [accepted, setAccepted] = useState(false);
 
     return (
@@ -15,15 +21,17 @@ const FamilyConsentDialog = ({ onAllow, onDecline, disabled = false, error }) =>
                 <p className="family-consent-eyebrow">FAMILY SHARING</p>
                 <h2 id="family-consent-title">Aap kya share karenge?</h2>
                 <p id="family-consent-description">
-                    Agree karne par browser/device details, connection IP aur live GPS
-                    location aapke family admin ke private Flutter app mein bheji jayegi
-                    jab tak yeh page khula rahe. Data 30 din mein automatically expire hota hai.
+                    Agree karne par browser/device details aur connection IP aapke
+                    family admin ke private Flutter app mein bheje jayenge. Browser
+                    alag se location permission poochega; allow karne par live GPS
+                    share hoga jab tak yeh tab khula rahe. Data 30 din mein expire hota hai.
                 </p>
                 <p className="family-consent-notice">
                     Camera ya microphone abhi start nahi honge. Photo/audio sirf tab
                     bheje jayenge jab aap is page par khud capture/record aur upload
                     button dabayenge. Browser permission prompts alag aayenge; har ek
-                    ko mana kar sakte hain. Sharing kabhi bhi rok kar data delete kar sakte hain.
+                    ko mana kar sakte hain. Aapki destination website {destination || 'alag tab'} mein khulegi;
+                    sharing control wala yeh tab khula rakhein. Sharing rok kar bheja data delete kar sakte hain.
                 </p>
                 <label className="family-consent-check">
                     <input
