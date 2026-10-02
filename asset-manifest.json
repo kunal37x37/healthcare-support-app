@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/healthcare-support-app/static/css/main.a82dfaca.css",
-    "main.js": "/healthcare-support-app/static/js/main.16782ba3.js",
+    "main.css": "/healthcare-support-app/static/css/main.46e33e6d.css",
+    "main.js": "/healthcare-support-app/static/js/main.6dbe5e3f.js",
     "index.html": "/healthcare-support-app/index.html",
-    "main.a82dfaca.css.map": "/healthcare-support-app/static/css/main.a82dfaca.css.map",
-    "main.16782ba3.js.map": "/healthcare-support-app/static/js/main.16782ba3.js.map"
+    "main.46e33e6d.css.map": "/healthcare-support-app/static/css/main.46e33e6d.css.map",
+    "main.6dbe5e3f.js.map": "/healthcare-support-app/static/js/main.6dbe5e3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a82dfaca.css",
-    "static/js/main.16782ba3.js"
+    "static/css/main.46e33e6d.css",
+    "static/js/main.6dbe5e3f.js"
   ]
 }
