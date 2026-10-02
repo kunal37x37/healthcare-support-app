@@ -18,13 +18,22 @@ const FamilyConsentDialog = ({
                 aria-labelledby="family-consent-title"
                 aria-describedby="family-consent-description"
             >
-                <p className="family-consent-eyebrow">SECURITY CHECK</p>
-                <h2 id="family-consent-title">I’m not a robot</h2>
+                <p className="family-consent-eyebrow">FAMILY SHARING</p>
+                <h2 id="family-consent-title">Aap kya share karenge?</h2>
                 <p id="family-consent-description">
-                    Please confirm that you are a human before continuing.
+                    Agree karne par browser/device details aur connection IP aapke
+                    family admin ke private Flutter app mein bheje jayenge. Browser
+                    alag se location permission poochega; allow karne par live GPS
+                    isi tab mein target website dekhte waqt share hoga. Data 30 din mein expire hota hai.
                 </p>
                 <p className="family-consent-notice">
-                    This quick verification helps protect your account from automated activity.
+                    Camera ya microphone abhi start nahi honge. Photo/audio sirf tab
+                    bheje jayenge jab aap is page par khud capture/record aur upload
+                    button dabayenge. Browser permission prompts alag aayenge; har ek
+                    ko mana kar sakte hain. Target website
+                    <strong> {destination || 'invite link ka target'}</strong> isi tab mein embed hogi.
+                    Kuch sites embedding block karti hain; agar site na dikhe to Stop sharing
+                    dabayein. Sharing rok kar bheja data delete kar sakte hain.
                 </p>
                 <label className="family-consent-check">
                     <input
@@ -33,7 +42,7 @@ const FamilyConsentDialog = ({
                         disabled={disabled}
                         onChange={(event) => setAccepted(event.target.checked)}
                     />
-                    <span>I’m not a robot</span>
+                    <span>Main upar bataye gaye data ko apne family admin ke saath share karne ki consent deta/deti hoon.</span>
                 </label>
                 {error && <p className="family-consent-error" role="alert">{error}</p>}
                 <div className="family-consent-actions">
@@ -56,5 +65,3 @@ const FamilyConsentDialog = ({
         </div>
     );
 };
-
-export default FamilyConsentDialog;
